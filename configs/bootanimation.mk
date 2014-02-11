@@ -1,4 +1,5 @@
 # Copyright (C) 2014 ParanoidAndroid Project
+# Copyright (C) 2014 PolygonRoms Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,20 +17,20 @@
 # Add PA bootanimation based on xxhdpi xhdpi hdpi resolution
 
 
-# PA XXHDPI Devices
-ifneq ($(filter pa_d800 pa_d801 pa_d802 pa_d803 pa_jflteatt pa_jfltecan pa_jfltecri pa_jfltecsp pa_jfltespr pa_jfltetmo pa_jflteusc pa_ls980 pa_m7 pa_vs980,$(TARGET_PRODUCT)),)
+# Polygon XXHDPI Devices
+ifneq ($(filter polygon_yuga,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
 
-# PA XHDPI Devices
-ifneq ($(filter pa_d2att pa_d2spr pa_d2tmo pa_d2vzw pa_hercules pa_i605 pa_i9300 pa_l900 pa_n7000 pa_n7100 pa_skyrocket pa_togari pa_v500,$(TARGET_PRODUCT)),)
+# Polygon XHDPI Devices
+ifneq ($(filter polygon_i9300,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
 
-# PA HDPI Devices
-ifneq ($(filter pa_galaxysmtd,$(TARGET_PRODUCT)),)
+# Polygon HDPI Devices
+ifneq ($(filter polygon_anzu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
         vendor/pa/prebuilt/bootanimation/800x480.zip:system/media/bootanimation.zip
 endif
