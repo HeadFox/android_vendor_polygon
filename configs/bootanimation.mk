@@ -14,7 +14,7 @@
 # limitations under the License.
 
 
-# Add PA bootanimation based on xxhdpi xhdpi hdpi resolution
+# Add Polygon bootanimation based on xxhdpi xhdpi hdpi resolution
 
 
 # Polygon XXHDPI Devices
