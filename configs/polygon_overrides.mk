@@ -1,4 +1,5 @@
 # Copyright (C) 2013 ParanoidAndroid Project
+# Copyright (C) 2014 PolygonRoms Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -31,8 +32,8 @@ PRODUCT_PACKAGES += \
 #        ParanoidPreferences
 #endif
 
-# Include ParanoidOTA
-ifneq ($(NO_OTA_BUILD),true)
+# Include PolygonCenter
+ifneq ($(CENTER_FROM_SOURCE),true)
     PRODUCT_PACKAGES += \
         ParanoidOTA
 endif
@@ -40,6 +41,7 @@ endif
 # Extra properties
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.pa.device=$(DEVICE)
+    ro.polygon.device=$(DEVICE)
 
 # Allow override of system DUN
 # 2 = not set, 0 = DUN not required, 1 = DUN required
