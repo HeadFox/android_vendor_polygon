@@ -1,0 +1,3 @@
+add_lunch_combo polygon_galaxysmtd-userdebug
+add_lunch_combo polygon_i9300-userdebug
+
