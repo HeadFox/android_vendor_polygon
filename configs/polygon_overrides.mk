@@ -20,7 +20,7 @@ PRODUCT_PACKAGES += \
 
 # Custom Apps
 PRODUCT_PACKAGES += \
-    OmniSwitch
+    OmniSwitch \
     Trebuchet
 
 # Extra packages
@@ -40,7 +40,7 @@ PRODUCT_PACKAGES += \
 # Include PolygonCenter
 ifneq ($(CENTER_FROM_SOURCE),true)
     PRODUCT_PACKAGES += \
-        ParanoidOTA
+        PolygonCenter
 endif
 
 # Extra properties
