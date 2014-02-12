@@ -14,11 +14,11 @@
 
 
 
-include vendor/pa/vendor.mk
-include vendor/pa/configs/aosp_fixes.mk
-include vendor/pa/configs/system.mk
-include vendor/pa/configs/polygon_overrides.mk
-include vendor/pa/configs/bootanimation.mk
-include vendor/pa/configs/version.mk
+include vendor/polygon/vendor.mk
+include vendor/polygon/configs/aosp_fixes.mk
+include vendor/polygon/configs/system.mk
+include vendor/polygon/configs/polygon_overrides.mk
+include vendor/polygon/configs/bootanimation.mk
+include vendor/polygon/configs/version.mk
 
 
