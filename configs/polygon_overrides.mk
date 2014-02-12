@@ -18,9 +18,10 @@ PRODUCT_PACKAGES += \
     Busybox \
     Lightbulb
 
-# OmniSwitch
+# Custom Apps
 PRODUCT_PACKAGES += \
     OmniSwitch
+    Trebuchet
 
 # Extra packages
 PRODUCT_PACKAGES += \
