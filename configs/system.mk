@@ -18,7 +18,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/$(VENDOR)/overlay/$(TARGET_PRODUCT)
 
 # Copy custom ramdisk
 PRODUCT_COPY_FILES += \
-    vendor/$(VENDOR)/prebuilt/etc/init.$(VENDOR).rc:root/init.$(VENDOR).rc
+    vendor/$(VENDOR)/prebuilt/etc/init.$(VENDOR).rc:root/init.pa.rc
 
 # init.d script support
 PRODUCT_COPY_FILES += \
@@ -46,7 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # SELinux filesystem labels
 PRODUCT_COPY_FILES += \
-    vendor/pa/prebuilt/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel
+    vendor/polygon/prebuilt/etc/init.d/50selinuxrelabel:system/etc/init.d/50selinuxrelabel
 
 # CM Hardware Abstraction Framework
 PRODUCT_PACKAGES += \
