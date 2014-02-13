@@ -20,17 +20,17 @@
 # Polygon XXHDPI Devices
 ifneq ($(filter polygon_yuga,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
+        vendor/polygon/prebuilt/bootanimation/1920x1080.zip:system/media/bootanimation.zip
 endif
 
 # Polygon XHDPI Devices
 ifneq ($(filter polygon_i9300,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
+        vendor/polygon/prebuilt/bootanimation/1280x720.zip:system/media/bootanimation.zip
 endif
 
 # Polygon HDPI Devices
 ifneq ($(filter polygon_anzu,$(TARGET_PRODUCT)),)
     PRODUCT_COPY_FILES += \
-        vendor/pa/prebuilt/bootanimation/800x480.zip:system/media/bootanimation.zip
+        vendor/polygon/prebuilt/bootanimation/800x480.zip:system/media/bootanimation.zip
 endif
